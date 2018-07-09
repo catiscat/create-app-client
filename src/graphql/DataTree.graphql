@@ -1,0 +1,6 @@
+query DataChangeRecords($app_id: ID!, $page_id: ID) {
+  DataChangeRecords(app_id: $app_id, page_id: $page_id) {
+    tableName
+    tableId
+  }
+}
